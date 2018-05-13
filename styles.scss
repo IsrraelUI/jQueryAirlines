@@ -21,12 +21,12 @@ body{
 }
 
 .content{
-    box-shadow: 0 0 11px 5px #0d00792e;
+    box-shadow: 0 0 11px 5px rgba(13, 0, 121, 0.2);
     margin: 30px 0;
     background-color: rgba(255,255,255,0.9)
 }
 
 
 .content + .content {
-    box-shadow: 0 0 11px 5px #0079252e;
+    box-shadow: 0 0 11px 5px rgba(0, 121, 37, 0.2);
 }
