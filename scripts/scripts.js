@@ -1,8 +1,8 @@
 var resultset1;
 var resultset2;
 var setColumns = function (resultset, target){
-    for(result of resultset){
-        var template = '<div class="columns content"><div class="column">'+ result.airline +'</div><div class="column">'+ result.origin +'</div><div class="column">'+ result.destination +'</div></div>';
+    for(result in resultset){
+        var template = '<div class="columns content"><div class="column">'+ resultset[result].airline +'</div><div class="column">'+ resultset[result].origin +'</div><div class="column">'+ resultset[result].destination +'</div></div>';
         target.append(template);
     }
 }

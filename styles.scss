@@ -4,7 +4,7 @@ body{
     padding: 100px;
     margin: 0;
     font-family: arial;
-
+    background-color: silver;
 }
 .columns{
     display: flex;
@@ -29,5 +29,4 @@ body{
 
 .content + .content {
     box-shadow: 0 0 11px 5px #0079252e;
-
 }
